@@ -58,7 +58,7 @@ const LandingPage = () => {
           </p>
         </div>
 
-        {/* Botão WhatsApp do topo movido para cá */}
+        {/* Botão WhatsApp logo após o texto principal */}
         <div className="top-whatsapp">
           <a 
             href="https://wa.me/55999999999" 

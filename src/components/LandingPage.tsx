@@ -5,6 +5,18 @@ const LandingPage = () => {
   return (
     <div className="landing-container">
       <div className="landing-content">
+        {/* Botão WhatsApp no topo */}
+        <div className="top-whatsapp">
+          <a 
+            href="https://wa.me/55999999999" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="whatsapp-button-top"
+          >
+            💬 Conversar no WhatsApp
+          </a>
+        </div>
+
         {/* Header com nome e foto de perfil */}
         <div className="header-section">
           <div className="header-content">
@@ -58,28 +70,14 @@ const LandingPage = () => {
           </p>
         </div>
 
-        {/* Botão WhatsApp logo após o texto principal */}
-        <div className="top-whatsapp">
-          <a 
-            href="https://wa.me/55999999999" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="whatsapp-button-top"
-          >
-            💬 Conversar no WhatsApp
-          </a>
-        </div>
-
-        {/* Botão WhatsApp */}
-        <div className="cta-section">
-          <a 
-            href="https://wa.me/55999999999" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="whatsapp-button"
-          >
-            💬 Conversar no WhatsApp
-          </a>
+        {/* Texto sexy adicional */}
+        <div className="sexy-text">
+          <p className="provocative-text">
+            Estou aqui esperando você... Vem me conhecer melhor e ter momentos inesquecíveis comigo 🔥
+          </p>
+          <p className="desire-text">
+            Sou toda sua, do jeito que você sempre sonhou... Não perca tempo, amor 💋
+          </p>
         </div>
 
         {/* Texto adicional */}
